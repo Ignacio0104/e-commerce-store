@@ -1,0 +1,7 @@
+.password-container{
+    display: flex;
+}
+
+.eye-icon-container{
+    cursor: pointer;
+}

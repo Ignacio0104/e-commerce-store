@@ -1,0 +1,28 @@
+.nav-main-container{
+    display: flex;
+    width: 100%;
+    background: rgb(1,42,74);
+background: linear-gradient(81deg, rgba(1,42,74,1) 0%, rgba(1,79,134,0.8241421568627451) 37%, rgba(1,42,74,0.8941701680672269) 100%);
+    color: #a9d6e5;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main-container a{
+    text-decoration: none;
+    color: #a9d6e5;
+}
+
+.logo-container{
+    margin-left: 10%;
+}
+
+.navbar-user-container,.login-container{
+    margin-right: 20px;
+}
+
+.options-container{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
