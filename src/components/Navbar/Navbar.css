@@ -15,6 +15,7 @@ background: linear-gradient(81deg, rgba(1,42,74,1) 0%, rgba(1,79,134,0.824142156
 
 .logo-container{
     margin-left: 10%;
+    cursor: pointer;
 }
 
 .navbar-user-container,.login-container{

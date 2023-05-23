@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { app } from "../../firebase/firebaseConfig";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -20,7 +21,9 @@ const Navbar = () => {
   return (
     <div className="nav-main-container">
       <div className="logo-container">
-        <h4>Logo</h4>
+        <Link to="/">
+          <h4>Logo</h4>
+        </Link>
       </div>
       <div className="options-container">
         <Link to="#">Categories</Link>

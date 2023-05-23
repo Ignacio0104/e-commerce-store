@@ -1,5 +1,4 @@
 import { getAuth, signOut } from "firebase/auth";
-import React from "react";
 
 const UserInfoPage = () => {
   const auth = getAuth();
